@@ -1,0 +1,25 @@
+.app-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    width: 50px; /* Adjust to fit the logo size */
+    height: auto;
+}
+
+.app-header h1 {
+    margin: 0;
+    font-size: 24px;
+}
