@@ -40,7 +40,7 @@ This project is a **Car Sales Dashboard** built with **React** and **Chart.js**.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sohiba-qureshi/car-sales-dashboard.git
+   git clone https://github.com/Sohiba-qureshi/ReactJS-Assignment.git
    cd car-sales-dashboard
    ```
 
@@ -95,4 +95,4 @@ Displays footer information for the app.
 - **Chart.js** & **react-chartjs-2**: For creating the interactive pie chart.
 - **chart.js**: Charting library required by `react-chartjs-2`.
 
-Feel free to replace `https://github.com/sohiba-qureshi/car-sales-dashboard.git` with the actual URL of your GitHub repository if you’re sharing this project publicly.
+Feel free to replace `https://github.com/Sohiba-qureshi/ReactJS-Assignment.git` with the actual URL of your GitHub repository if you’re sharing this project publicly.
