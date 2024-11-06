@@ -1,70 +1,98 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Car Sales Dashboard
+
+This project is a **Car Sales Dashboard** built with **React** and **Chart.js**. It provides an interactive user interface for viewing car sales data by company and model. Users can filter data through an interactive pie chart, search by company or model, and toggle data visibility in the table.
+
+## Features
+
+- **Interactive Pie Chart**: The pie chart represents car sales by company. Click on a segment to filter the data by that company.
+- **Search Functionality**: Search for specific car models or companies to narrow down the data.
+- **Data Toggle**: Hide or show the data table with a button click.
+- **Responsive Design**: The app is styled with a simple layout, optimized for different screen sizes.
+
+## Technologies Used
+
+- **React**: For building the user interface and managing the application state.
+- **Chart.js** & **react-chartjs-2**: For creating the interactive pie chart.
+- **CSS**: For styling the components and layout.
+
+## Project Structure
+
+```plaintext
+├── public
+│   ├── index.html
+│   └── assets
+│       └── logo.png          # Logo for the header
+├── src
+│   ├── components
+│   │   ├── Header.js         # Header component with logo and title
+│   │   ├── Footer.js         # Footer component
+│   │   ├── SalesTable.js     # Table component for displaying car sales data
+│   │   └── SalesPieChart.js  # Pie chart component for visualizing data
+│   ├── App.js                # Main app component
+│   ├── App.css               # Global styles
+│   └── index.js              # Entry point
+├── package.json
+└── README.md
+```
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/car-sales-dashboard.git
+   cd car-sales-dashboard
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+
+4. Open your browser and go to `http://localhost:3000` to view the app.
+
+## Usage
+
+1. **Filter by Company**: Click on any segment in the pie chart to filter the table data by the selected company.
+2. **Search**: Use the search input to filter car models or companies in real-time.
+3. **Toggle Data Visibility**: Click the "Hide Data" button to hide the table, or "Show All Data" to reveal it.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+- `npm start`: Runs the app in development mode.
+- `npm test`: Launches the test runner.
+- `npm run build`: Builds the app for production.
+- `npm run eject`: Ejects the configuration for customization.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Component Details
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `Header.js`
 
-### `npm test`
+Displays a logo and title for the dashboard.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `SalesTable.js`
 
-### `npm run build`
+Displays a table of car sales data. It accepts filtered data as props and renders it dynamically.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `SalesPieChart.js`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Displays an interactive pie chart where each segment represents a company. Clicking a segment filters the table data by the selected company.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `Footer.js`
 
-### `npm run eject`
+Displays footer information for the app.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **React**: JavaScript library for building the UI.
+- **Chart.js** & **react-chartjs-2**: For creating the interactive pie chart.
+- **chart.js**: Charting library required by `react-chartjs-2`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to replace `https://github.com/sohiba-qureshi/car-sales-dashboard.git` with the actual URL of your GitHub repository if you’re sharing this project publicly.
