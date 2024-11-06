@@ -40,7 +40,7 @@ This project is a **Car Sales Dashboard** built with **React** and **Chart.js**.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/car-sales-dashboard.git
+   git clone https://github.com/sohiba-qureshi/car-sales-dashboard.git
    cd car-sales-dashboard
    ```
 
